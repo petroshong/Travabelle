@@ -1,0 +1,50 @@
+{
+  "city_template": {
+    "city": "string",
+    "country": "string",
+    "description": "string",
+    "coordinates": {"lat": "number", "lng": "number"},
+    "timezone": "string",
+    "tour_routes": [
+      {
+        "id": "string",
+        "name": "string",
+        "duration": "string",
+        "difficulty": "Easy|Moderate|Challenging",
+        "description": "string",
+        "stops": [
+          {
+            "id": "number",
+            "name": "string",
+            "category": "string",
+            "coordinates": {"lat": "number", "lng": "number"},
+            "address": "string",
+            "description": "string",
+            "audio_script": "string",
+            "duration_minutes": "number",
+            "tips": ["string"]
+          }
+        ]
+      }
+    ]
+  },
+  "api_integration": {
+    "google_places_fields": [
+      "place_id",
+      "name",
+      "formatted_address",
+      "geometry",
+      "types",
+      "rating",
+      "user_ratings_total",
+      "photos",
+      "editorial_summary"
+    ],
+    "tour_generation_strategy": {
+      "step1": "Use Google Places API to find top attractions in the city",
+      "step2": "Calculate optimal walking route using Google Directions API",
+      "step3": "Generate audio scripts based on place information and historical data",
+      "step4": "Structure tour stops with timing and difficulty levels"
+    }
+  }
+}

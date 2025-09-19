@@ -1,0 +1,114 @@
+{
+  "city": "San Francisco",
+  "country": "United States",
+  "description": "The cultural and financial heart of Northern California, famous for its iconic landmarks, diverse neighborhoods, and stunning bay views.",
+  "tour_routes": [
+    {
+      "id": "classic_sf",
+      "name": "Classic San Francisco Highlights",
+      "duration": "4-5 hours",
+      "difficulty": "Moderate",
+      "description": "Experience San Francisco's most iconic landmarks and neighborhoods on this comprehensive walking tour.",
+      "stops": [
+        {
+          "id": 1,
+          "name": "Union Square",
+          "category": "Shopping & Entertainment",
+          "coordinates": {"lat": 37.7879, "lng": -122.4075},
+          "address": "Union Square, San Francisco, CA 94108",
+          "description": "The city's premier shopping and dining destination, surrounded by theaters and art galleries. This bustling plaza serves as the heart of San Francisco's retail district.",
+          "audio_script": "Welcome to Union Square, the beating heart of San Francisco's shopping and cultural scene. Named after the pro-Union rallies held here during the Civil War, this vibrant plaza has been the city's central gathering place for over 150 years. Notice the towering Dewey Monument at the center, commemorating Admiral George Dewey's victory at the Battle of Manila Bay. The square is surrounded by world-class department stores, luxury boutiques, and historic theaters that have hosted everything from Broadway shows to premieres of Hollywood films.",
+          "duration_minutes": 15,
+          "tips": ["Great starting point for any SF tour", "Check out the underground parking and shopping", "Look for street performers and artists"]
+        },
+        {
+          "id": 2,
+          "name": "Chinatown Gate",
+          "category": "Cultural District",
+          "coordinates": {"lat": 37.7909, "lng": -122.4056},
+          "address": "Grant Ave & Bush St, San Francisco, CA 94108",
+          "description": "The ornate entrance to the oldest Chinatown in North America, featuring traditional Chinese architecture and vibrant cultural life.",
+          "audio_script": "You're now entering the largest Chinatown outside of Asia and the oldest in North America. This magnificent gate, called 'Chinatown Gate' or 'Dragon Gate,' was built in 1970 and features traditional Chinese architectural elements including green-tiled roofs and guardian lions. The Chinese characters above read 'All under heaven is for the common good.' As you walk down Grant Avenue, you'll be transported into a world of traditional herb shops, dim sum restaurants, and temples that have served the Chinese community since the 1850s Gold Rush era.",
+          "duration_minutes": 20,
+          "tips": ["Try authentic dim sum", "Visit the fortune cookie factory", "Explore the narrow alleyways"]
+        },
+        {
+          "id": 3,
+          "name": "North Beach - Little Italy",
+          "category": "Neighborhood",
+          "coordinates": {"lat": 37.8067, "lng": -122.4101},
+          "address": "Columbus Ave, San Francisco, CA 94133",
+          "description": "San Francisco's Little Italy, known for its cafes, restaurants, and the historic City Lights Bookstore.",
+          "audio_script": "Welcome to North Beach, San Francisco's Little Italy and the former heart of the Beat Generation. This neighborhood became home to Italian immigrants in the early 1900s and still maintains its Mediterranean charm today. You'll find family-owned restaurants serving authentic Italian cuisine, sidewalk cafes perfect for people-watching, and the famous City Lights Bookstore, which was a gathering place for Beat poets like Jack Kerouac and Allen Ginsberg. The aroma of fresh bread from local bakeries and the sound of Italian conversation still fill the streets, making this one of the city's most authentic neighborhoods.",
+          "duration_minutes": 25,
+          "tips": ["Visit City Lights Bookstore", "Try the cappuccino at Cafe Trieste", "Walk up Telegraph Hill for views"]
+        },
+        {
+          "id": 4,
+          "name": "Coit Tower",
+          "category": "Landmark",
+          "coordinates": {"lat": 37.8024, "lng": -122.4058},
+          "address": "1 Telegraph Hill Blvd, San Francisco, CA 94133",
+          "description": "A historic Art Deco tower atop Telegraph Hill, offering panoramic city views and featuring Depression-era murals.",
+          "audio_script": "Rising 210 feet above Telegraph Hill, Coit Tower stands as one of San Francisco's most recognizable landmarks. Built in 1933 with funds bequeathed by Lillie Hitchcock Coit, a colorful San Francisco socialite and firefighter enthusiast, the tower was designed to honor the city's firefighters. Inside, you'll find stunning murals painted by 26 different artists during the Great Depression as part of the Public Works of Art Project. These murals depict California life in the 1930s and are considered some of the finest examples of New Deal art in the country. The 360-degree views from the top showcase the entire San Francisco Bay, from the Golden Gate Bridge to the Bay Bridge.",
+          "duration_minutes": 30,
+          "tips": ["Take the elevator to the top for $8", "Study the detailed murals inside", "Best photos are from the base"]
+        },
+        {
+          "id": 5,
+          "name": "Fisherman's Wharf",
+          "category": "Tourist Attraction",
+          "coordinates": {"lat": 37.8080, "lng": -122.4177},
+          "address": "Fisherman's Wharf, San Francisco, CA 94133",
+          "description": "A bustling waterfront district known for seafood restaurants, historic ships, and attractions like the sea lions at Pier 39.",
+          "audio_script": "You've arrived at Fisherman's Wharf, once the heart of San Francisco's fishing industry and now one of the city's most popular tourist destinations. The wharf was established in the 1850s by Italian fishermen, and while commercial fishing has decreased, you can still see fishing boats bobbing in the harbor each morning. The area is famous for its clam chowder served in sourdough bread bowls, Dungeness crab during season, and the hundreds of California sea lions that have made Pier 39 their home since 1989. These playful marine mammals arrived after the 1989 earthquake and have been entertaining visitors ever since with their barking and sunbathing antics.",
+          "duration_minutes": 35,
+          "tips": ["Watch the sea lions at Pier 39", "Try clam chowder in a bread bowl", "Visit the historic ships at Hyde Street Pier"]
+        },
+        {
+          "id": 6,
+          "name": "Golden Gate Bridge Vista Point",
+          "category": "Landmark",
+          "coordinates": {"lat": 37.8199, "lng": -122.4783},
+          "address": "Golden Gate Bridge, San Francisco, CA 94129",
+          "description": "The world-famous suspension bridge connecting San Francisco to Marin County, offering breathtaking views and photo opportunities.",
+          "audio_script": "Behold the Golden Gate Bridge, one of the most photographed structures in the world and an engineering marvel that has defined San Francisco's skyline since 1937. Spanning 1.7 miles across the Golden Gate strait, this Art Deco masterpiece was designed by engineer Joseph Strauss and architect Irving Morrow. The bridge's distinctive International Orange color was chosen to enhance visibility in San Francisco's frequent fog and to complement the natural surroundings. During construction, this was considered an impossible feat due to strong currents, deep water, and persistent fog. Today, it stands as a symbol of American ingenuity and the gateway to San Francisco Bay. On clear days like today, you can see all the way to the Marin Headlands and beyond.",
+          "duration_minutes": 25,
+          "tips": ["Best photos from Battery Spencer viewpoint", "Walk across for $1 toll", "Visit during sunrise or sunset for magical lighting"]
+        }
+      ]
+    }
+  ],
+  "categories": {
+    "landmarks": {
+      "icon": "🌉",
+      "name": "Iconic Landmarks",
+      "description": "World-famous structures and architectural marvels"
+    },
+    "neighborhoods": {
+      "icon": "🏘️",
+      "name": "Unique Neighborhoods",
+      "description": "Distinct cultural districts and local communities"
+    },
+    "attractions": {
+      "icon": "🎡",
+      "name": "Popular Tourist Spots",
+      "description": "Must-visit destinations and entertainment venues"
+    },
+    "parks": {
+      "icon": "🌳",
+      "name": "Parks & Outdoor Spaces",
+      "description": "Green spaces and recreational areas"
+    },
+    "culture": {
+      "icon": "🖼️",
+      "name": "Museums & Cultural Institutions",
+      "description": "Art, history, and educational venues"
+    },
+    "viewpoints": {
+      "icon": "🌅",
+      "name": "Scenic Viewpoints",
+      "description": "Breathtaking vistas and photography spots"
+    }
+  }
+}

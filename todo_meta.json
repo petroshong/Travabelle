@@ -1,0 +1,34 @@
+{
+  "todos": {
+    "Coordinator": {
+      "1": {
+        "id": "1",
+        "content": "Research Google Maps APIs and audio generation capabilities",
+        "details": "1. Research Google Maps APIs (Street View, Places, Directions) for tour visualization. 2. Research text-to-speech options for voice narration. 3. Identify best practices for interactive map-based applications.",
+        "status": "completed",
+        "priority": "high"
+      },
+      "2": {
+        "id": "2",
+        "content": "Create San Francisco tour data and design extensible city system",
+        "details": "1. Create comprehensive SF tour data using the provided example structure. 2. Design a flexible system that can dynamically generate tours for any city using Google Maps Places API. 3. Implement fallback mechanisms for cities with limited data. 4. Structure data format that works for both curated and dynamically generated content.",
+        "status": "completed",
+        "priority": "high"
+      },
+      "3": {
+        "id": "3",
+        "content": "Set up Supabase backend infrastructure",
+        "details": "1. Ask user for Supabase credentials. 2. Design database schema for cities, tour routes, and location data. 3. Set up data storage for tour information and user preferences.",
+        "status": "completed",
+        "priority": "medium"
+      },
+      "4": {
+        "id": "4",
+        "content": "Build the virtual tour guide web application with dynamic city input",
+        "details": "1. Create city search/input interface allowing users to enter any city name. 2. Implement Google Maps integration with Street View for any location. 3. Build tour generation system that works with both curated (SF) and dynamic city data. 4. Integrate voice narration for location descriptions. 5. Add intelligent tour route planning for user-entered cities. 6. Implement responsive design for mobile and desktop.",
+        "status": "completed",
+        "priority": "high"
+      }
+    }
+  }
+}
